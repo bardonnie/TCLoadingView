@@ -13,6 +13,8 @@
 		AC95CCEE1C3BB536004FC116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC95CCEC1C3BB536004FC116 /* Main.storyboard */; };
 		AC95CCF01C3BB536004FC116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC95CCEF1C3BB536004FC116 /* Assets.xcassets */; };
 		AC95CCF31C3BB536004FC116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC95CCF11C3BB536004FC116 /* LaunchScreen.storyboard */; };
+		AC95CCFF1C3BB54E004FC116 /* TCCountdown.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CCFC1C3BB54E004FC116 /* TCCountdown.m */; };
+		AC95CD001C3BB54E004FC116 /* TCLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95CCFE1C3BB54E004FC116 /* TCLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AC95CCEF1C3BB536004FC116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC95CCF21C3BB536004FC116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC95CCF41C3BB536004FC116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC95CCFB1C3BB54E004FC116 /* TCCountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCountdown.h; sourceTree = "<group>"; };
+		AC95CCFC1C3BB54E004FC116 /* TCCountdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCountdown.m; sourceTree = "<group>"; };
+		AC95CCFD1C3BB54E004FC116 /* TCLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLoadingView.h; sourceTree = "<group>"; };
+		AC95CCFE1C3BB54E004FC116 /* TCLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		AC95CCD71C3BB536004FC116 = {
 			isa = PBXGroup;
 			children = (
+				AC95CCFA1C3BB54E004FC116 /* TCLoadingView */,
 				AC95CCE21C3BB536004FC116 /* TCLoadingViewDemo */,
 				AC95CCE11C3BB536004FC116 /* Products */,
 			);
@@ -77,6 +84,17 @@
 				AC95CCE41C3BB536004FC116 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC95CCFA1C3BB54E004FC116 /* TCLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CCFB1C3BB54E004FC116 /* TCCountdown.h */,
+				AC95CCFC1C3BB54E004FC116 /* TCCountdown.m */,
+				AC95CCFD1C3BB54E004FC116 /* TCLoadingView.h */,
+				AC95CCFE1C3BB54E004FC116 /* TCLoadingView.m */,
+			);
+			path = TCLoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC95CD001C3BB54E004FC116 /* TCLoadingView.m in Sources */,
+				AC95CCFF1C3BB54E004FC116 /* TCCountdown.m in Sources */,
 				AC95CCEB1C3BB536004FC116 /* ViewController.m in Sources */,
 				AC95CCE81C3BB536004FC116 /* AppDelegate.m in Sources */,
 				AC95CCE51C3BB536004FC116 /* main.m in Sources */,
