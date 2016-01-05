@@ -1,5 +1,5 @@
 # TCLoadingView
-> 一个有渐变动画效果的 loading
+> 一个有渐变动画效果的 loading 附带一个GCD定时器
 
 ## 效果如下
 ![](gif.gif)
