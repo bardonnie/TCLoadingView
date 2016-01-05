@@ -2,7 +2,7 @@
 > 一个有渐变动画效果的 loading
 
 ## 效果如下
-![](TCLoadingView/gif.gif)
+![](gif.gif)
 ## Demo
 	[TCLoadingView setLineWide:1.0f];
     [TCLoadingView setStartColor:[UIColor redColor]];
